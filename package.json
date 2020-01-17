@@ -1,7 +1,17 @@
 {
+  "name": "the-david-barton-umbrella",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "github-streak-scraper": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "10.x"
   }
 }
