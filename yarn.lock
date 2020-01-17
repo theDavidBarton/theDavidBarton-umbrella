@@ -260,10 +260,10 @@ fs.realpath@^1.0.0:
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
   integrity sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
 
-github-streak-scraper@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/github-streak-scraper/-/github-streak-scraper-1.0.0.tgz#e8187ac91d41367231c164158fb46fa0c010416c"
-  integrity sha512-TA2aHU1k896zrp5kEiv+OF2d/dl4Q1IB4rWRD78koEDdHU5YaQgovC9RJdssBEwWz1T51N096GyQbIpT+HxNXw==
+github-streak-scraper@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/github-streak-scraper/-/github-streak-scraper-1.0.1.tgz#4a1434a25d8198072d7301047e38574558fcd37f"
+  integrity sha512-yLq2Dqr38YxVz0cFdtgN3xu3bKwfhYxQ5oEeoZKda9VEzEHibFBBQ5CPzk9W/RFemPzhAg72Y1vgRZeUAZmJzQ==
   dependencies:
     puppeteer "^2.0.0"
     svg-parser "^2.0.3"
