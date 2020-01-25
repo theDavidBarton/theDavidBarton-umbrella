@@ -27,6 +27,7 @@ SOFTWARE.
 const express = require('express')
 const cors = require('cors')
 const githubStreakScraper = require('github-streak-scraper')
+const oneyPlays = require('oneyplays-api')
 
 async function endpointCreation() {
   const getStreakData = async user => {
@@ -55,6 +56,13 @@ async function endpointCreation() {
         console.error(e)
         res.status(404).json({ error: 'no such user available!' })
       }
+    })
+
+    app.get('/api/1/oneyplays', (req, res) => {
+      const query = req.query.q
+      const searchResult = oneyPlays(query)
+      res.json(searchResult)
+      console.log(`/api/1/oneyplays?q=${query} endpoint has been called!`)
     })
 
     app.listen(port)
