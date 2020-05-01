@@ -7,10 +7,10 @@
     "compression": "^1.7.4",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "github-streak-scraper": "^1.0.1",
+    "github-streak-scraper": "^1.0.2",
     "oneyplays-api": "^1.2.0",
     "request": "^2.88.0",
-    "twin-peaks-api": "^1.1.0"
+    "twin-peaks-api": "^1.1.2"
   },
   "scripts": {
     "start": "node server.js"
