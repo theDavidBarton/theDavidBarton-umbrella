@@ -29,6 +29,7 @@ const cors = require('cors')
 const githubStreakScraper = require('github-streak-scraper')
 const request = require('request')
 const oneyPlays = require('oneyplays-api')
+const getMyRank = require('get-my-rank-on-commits-top')
 const { recommend, getId, search } = require('twin-peaks-api')
 
 let parsedResult
@@ -36,8 +37,8 @@ let parsedResult
 async function apiCall(options) {
   // (I.) promise to return the parsedResult for processing
   function rawgRequest() {
-    return new Promise(function(resolve, reject) {
-      request(options, function(error, response, body) {
+    return new Promise(function (resolve, reject) {
+      request(options, function (error, response, body) {
         try {
           resolve(JSON.parse(body))
         } catch (e) {
@@ -110,6 +111,22 @@ async function endpointCreation() {
     /******************************************/
     /******************************************/
     /****                                  ****/
+    /****       GET MY RANK - api          ****/
+    /****                                  ****/
+    /******************************************/
+    /******************************************/
+
+    app.get('/api/1/get-my-rank', async (req, res) => {
+      const userName = req.query.userName
+      const country = req.query.country
+      const rank = await getMyRank(userName, country)
+      res.json(rank)
+      console.log(`/api/1/get-my-rank?userName=${userName}&country=${country} endpoint has been called!`)
+    })
+
+    /******************************************/
+    /******************************************/
+    /****                                  ****/
     /****        TWIN PEAKS - api          ****/
     /****                                  ****/
     /******************************************/
@@ -156,6 +173,7 @@ async function endpointCreation() {
       `API is listening on ${port}
       \nAvailable endpoints:
       - /api/1/github-streak/:user
+      - /api/1/get-my-rank
       - /api/1/oneyplays
       \nAvailable twin-peaks endpoints:
       - /api/1/quotes/recommend,

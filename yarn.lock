@@ -421,6 +421,13 @@ fs.realpath@^1.0.0:
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
   integrity sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
 
+get-my-rank-on-commits-top@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/get-my-rank-on-commits-top/-/get-my-rank-on-commits-top-1.0.0.tgz#b2219745e670d9ffd1b648cdd5f3b3d019699e5b"
+  integrity sha512-MvAg03uXJnS5kCMao6cJKOVWcXe83jb/MaANQodw0ayuWkd3+enZIzsJG7AGih2aX9Dtk3VYOkS6yHvYhGPE7Q==
+  dependencies:
+    puppeteer "^3.0.2"
+
 get-stream@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-5.1.0.tgz#01203cdc92597f9b909067c3e656cc1f4d3c4dc9"
