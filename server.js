@@ -30,6 +30,7 @@ const githubStreakScraper = require('github-streak-scraper')
 const request = require('request')
 const oneyPlays = require('oneyplays-api')
 const getMyRank = require('get-my-rank-on-commits-top')
+const aggregate = require('my-puppeteer-agggregator-webpage')
 const { recommend, getId, search } = require('twin-peaks-api')
 
 let parsedResult
@@ -127,6 +128,20 @@ async function endpointCreation() {
     /******************************************/
     /******************************************/
     /****                                  ****/
+    /****            AGGREGATOR            ****/
+    /****                                  ****/
+    /******************************************/
+    /******************************************/
+
+    app.get('/api/1/my-puppeteer-agggregator-webpage', async (req, res) => {
+      const html = await aggregate()
+      res.send(html)
+      console.log('/api/1/my-puppeteer-agggregator-webpage endpoint has been called!')
+    })
+
+    /******************************************/
+    /******************************************/
+    /****                                  ****/
     /****        TWIN PEAKS - api          ****/
     /****                                  ****/
     /******************************************/
@@ -175,6 +190,7 @@ async function endpointCreation() {
       - /api/1/github-streak/:user
       - /api/1/get-my-rank
       - /api/1/oneyplays
+      - /api/1/my-puppeteer-agggregator-webpage
       \nAvailable twin-peaks endpoints:
       - /api/1/quotes/recommend,
       - /api/1/quotes/:id,
