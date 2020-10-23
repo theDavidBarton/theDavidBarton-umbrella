@@ -665,10 +665,10 @@ ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-my-puppeteer-agggregator-webpage@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/my-puppeteer-agggregator-webpage/-/my-puppeteer-agggregator-webpage-1.0.2.tgz#5ab6c50973ab63bd233a64d5787d4e9c26055f89"
-  integrity sha512-twYvHCweFBoD9XTj2t3L5YqF1KhDs/e6FgUR7QIWmhfgr8wIc0rum5syU12aY3K8Uturi1SIpTLc7nZdt1ELrg==
+my-puppeteer-agggregator-webpage@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/my-puppeteer-agggregator-webpage/-/my-puppeteer-agggregator-webpage-1.0.3.tgz#36dbdbbab90d165548785f97485dbf2411ffaad6"
+  integrity sha512-PlHxoaMbJGKRMOkksos2viqOXr1QTTGFjb4prgj6KZvpcEKzYtKdBESgYYo8pQPm25ZIuTxHFpkCt3iF594FAA==
   dependencies:
     puppeteer "^3.0.2"
 
