@@ -9,7 +9,7 @@
     "express": "^4.17.1",
     "get-my-rank-on-commits-top": "^2.1.1",
     "github-streak-scraper": "^1.0.2",
-    "my-puppeteer-agggregator-webpage": "^1.0.2",
+    "my-puppeteer-agggregator-webpage": "^1.0.3",
     "oneyplays-api": "^1.2.0",
     "request": "^2.88.0",
     "twin-peaks-api": "^1.1.2"
