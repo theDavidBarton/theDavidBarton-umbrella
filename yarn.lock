@@ -1064,10 +1064,10 @@ setprototypeof@1.1.1:
   resolved "https://registry.yarnpkg.com/setprototypeof/-/setprototypeof-1.1.1.tgz#7e95acb24aa92f5885e0abef5ba131330d4ae683"
   integrity sha512-JvdAWfbXeIGaZ9cILp38HntZSFSo3mWg6xGcJJsd+d4aRMOqauag1C63dJfDw7OaMYwEbHMOxEZ1lqVRYP2OAw==
 
-simple-puppeteer-uptime-checker@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/simple-puppeteer-uptime-checker/-/simple-puppeteer-uptime-checker-1.0.0.tgz#27caf80ff680bea7d1244a57d2fb4cc56dd2f43b"
-  integrity sha512-QgF1ajjGlVz039e2lnlSos2Fp/Zffa3g/6XTB1xMcStMaItgshybwffVdOmNzdQNK0XMZVGo0VaqLrXfelk9BA==
+simple-puppeteer-uptime-checker@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/simple-puppeteer-uptime-checker/-/simple-puppeteer-uptime-checker-1.0.2.tgz#bac9d4ed7435a422e947a7919522d3e9ee0d5a18"
+  integrity sha512-/m8WWa1v3nkPNvVDb8swsXzsiojKTTXl8qxQDfkQdDQnnBYLD7ZLa3tsB0CQVh9QVYegJ5tBFce55JfPBVJb5Q==
   dependencies:
     nodemailer "^6.5.0"
     puppeteer "^8.0.0"
