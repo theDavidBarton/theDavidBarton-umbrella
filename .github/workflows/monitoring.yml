@@ -1,5 +1,6 @@
 name: monitoring
 on:
+  workflow_dispatch:
   schedule:
     - cron: '20 23 * * *'
 jobs:
