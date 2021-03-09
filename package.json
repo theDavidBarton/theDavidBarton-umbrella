@@ -12,6 +12,7 @@
     "my-puppeteer-agggregator-webpage": "^1.0.3",
     "oneyplays-api": "^1.2.0",
     "request": "^2.88.0",
+    "simple-puppeteer-uptime-checker": "^1.0.0",
     "twin-peaks-api": "^1.1.2"
   },
   "scripts": {
