@@ -1,6 +1,6 @@
 {
   "name": "the-david-barton-umbrella",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "server.js",
   "license": "MIT",
   "dependencies": {
@@ -9,16 +9,14 @@
     "express": "^4.17.1",
     "get-my-rank-on-commits-top": "^2.1.1",
     "github-streak-scraper": "^2.0.0",
-    "my-puppeteer-agggregator-webpage": "^1.0.3",
     "oneyplays-api": "^1.2.0",
     "request": "^2.88.0",
-    "simple-puppeteer-uptime-checker": "1.0.2",
     "twin-peaks-api": "^1.1.2"
   },
   "scripts": {
     "start": "node server.js"
   },
   "engines": {
-    "node": "12.x"
+    "node": "16.x"
   }
 }
