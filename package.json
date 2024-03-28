@@ -6,7 +6,7 @@
   "dependencies": {
     "compression": "^1.7.4",
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.19.2",
     "get-my-rank-on-commits-top": "^2.1.1",
     "github-streak-scraper": "^2.0.0",
     "oneyplays-api": "^1.2.0",
